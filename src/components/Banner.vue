@@ -2,7 +2,12 @@
 
 <template>
   <div class="banner-container">
-    <img src="@/assets/images/banner.png" alt="版圖" class="banner" />
+    <img
+      src="@/assets/images/banner.png"
+      alt="版圖"
+      class="banner"
+      rel="preload"
+    />
 
     <div class="content">
       <div class="title">白頭翁 (Chinese bulbul)</div>
