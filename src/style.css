@@ -1,0 +1,25 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+}
+
+#app {
+  display: grid;
+  grid-template-columns: 24% 76%;
+  width: 100vw;
+  height: 100vh;
+}
+
+@media (max-width: 1024px) {
+  #app {
+    grid-template-columns: none;
+    grid-template-rows: min-content;
+  }
+}
